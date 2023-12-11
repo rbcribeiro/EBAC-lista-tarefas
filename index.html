@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="main.js"></script>
+  <title>Lista de Tarefas</title>
+</head>
+<body>
+
+  <div id="app">
+    <h1>Lista de Tarefas</h1>
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Adicionar Tarefa">
+      <div id="buttonContainer">
+        <button type="submit">Adicionar</button>
+        <button type="button" id="cancelButton">Cancelar</button>
+      </div>
+    </form>
+    <ul id="taskList" class="sortable"></ul>
+  </div>
+
+</body>
+</html>
