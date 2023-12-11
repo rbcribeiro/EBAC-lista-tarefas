@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  
+  #app {
+    text-align: center;
+    max-width: 70%;
+    
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  #taskForm {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #taskInput {
+    padding: 8px;
+    min-width: 80%;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #buttonContainer {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px;
+    width: 150px;
+    
+  }
+  
+  #cancelButton {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  #cancelButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .checkbox-col {
+    width: 20px;
+  }
+  
+  .drag-handle {
+    cursor: move;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
